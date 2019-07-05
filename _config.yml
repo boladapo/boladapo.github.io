@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Busola Oladapo
+tagline:             Data Science Blog...Getting Started
+url:                 http://boladapo.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Busola Oladapo
+  url:               meh
+  email:             meh meh
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/boladapo
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
